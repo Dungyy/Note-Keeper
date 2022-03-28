@@ -3,7 +3,7 @@ import Header from "./Header";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
 import { v4 as uuidv4 } from "uuid";
-import HeroBG from "./HeroBG";
+// import HeroBG from "./HeroBG";
 import Axios from "axios";
 
 export default function App() {
@@ -32,7 +32,7 @@ export default function App() {
   return (
     <div>
       <Header />
-      <HeroBG />
+      {/* <HeroBG /> */}
       <CreateArea onAdd={addItem} />
       {notes.map((val, id) => {
         return (

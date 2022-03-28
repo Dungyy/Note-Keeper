@@ -10,7 +10,7 @@ html {
 
 
 body {
-  background: rgba(0, 0, 0, 0.884);
+  background: #393E46;
   padding: 0 16px;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background-color: #393E46;
+  background-color: #00000000;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
